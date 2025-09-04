@@ -1,8 +1,10 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const path = require('path');
 const mongoose = require('mongoose');
-require('dotenv').config();
+
+console.log("🔑 MONGO_URI from env:", process.env.MONGO_URI);
 
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB connected"))

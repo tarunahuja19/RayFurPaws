@@ -1,11 +1,9 @@
-require('dotenv').config();
-const mongoose=require('mongoose')
-mongoose.connect(process.env.MONGO_URI)
-const subscribeFormSchema=new mongoose.Schema({
-    First:String,
-    Last:String,
-    Email:String,
-})
-const subscribeFormModel=new mongoose.model('Subscribe',subscribeFormSchema)
-subscribeFormModel.insertMany([{First:'Tarun',Last:'Ahuja',Email:'taruna@gmail.com'}])
-module.exports=subscribeFormModel;
+const mongoose = require('mongoose');
+const subscribeFormSchema = new mongoose.Schema({
+  First: String,
+  Last: String,
+  Email: String,
+});
+const subscribeFormModel = mongoose.model('Subscribe', subscribeFormSchema);
+module.exports = subscribeFormModel;
+

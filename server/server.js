@@ -4,7 +4,8 @@ const app = express();
 const path = require('path');
 const mongoose = require('mongoose');
 
-console.log("🔑 MONGO_URI from env:", process.env.MONGO_URI);
+
+console.log("MONGO_URI from env:", process.env.MONGO_URI);
 
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB connected"))
@@ -16,6 +17,8 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '..', 'public', 'Home.html'));
 });
+
+
 
 const subscribeModel = require('../dataModels/subscribeFormHomePage');
 

@@ -254,6 +254,103 @@ a {
     outline: none;
 }
 
+
+
+.footer {
+    width: 100%;
+    height: 30rem;
+    background-color: #5C4033;
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.fcName {
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.qlinkandTerm {
+    display: flex;
+    flex-direction: row;
+}
+
+#fLogo {
+    height: 8rem;
+    width: 8rem;
+}
+
+#fName {
+    font-size: 4rem;
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+
+.fQuickLinks {
+    color: white;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+.fQuickLinks ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fQuickLinks ul li a {
+    color: white;
+}
+
+.fQuickLinks ul li {
+    margin-top: 1.5rem;
+}
+
+.fTerms div:nth-of-type(1) {
+    color: white;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.fTerms ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fTerms ul li a {
+    color: white;
+}
+
+.fTerms ul li {
+    margin-top: 1.5rem;
+}
+
+.fTerms div:nth-of-type(2) {
+    color: white;
+    width: 20rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fTerms div:nth-of-type(2) a {
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
 @media(max-width:768px) {
     #logo {
         height: 4rem;
@@ -281,5 +378,109 @@ a {
 
     #donate {
         display: none;
+    }
+
+
+    .footer {
+        width: 100%;
+        height: 20rem;
+        background-color: #5C4033;
+        margin-top: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fcName {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0.5rem;
+    }
+
+    .qlinkandTerm {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #fLogo {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    #fName {
+        margin-left: 0.5rem;
+        font-size: 2rem;
+        color: white;
+        font-family: Verdana, sans-serif;
+    }
+
+    .fQuickLinks {
+        color: white;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+        font-size: 0.5rem;
+    }
+
+    .fQuickLinks ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .fQuickLinks ul li a {
+        color: white;
+    }
+
+    .fQuickLinks ul li {
+        margin-top: 0.5rem;
+    }
+
+    .fTerms div:nth-of-type(1) {
+        color: white;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 0.5rem;
+        margin-top: 0.5rem;
+        margin-left: 5rem;
+    }
+
+    .fTerms ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .fTerms ul li a {
+        color: white;
+    }
+
+    .fTerms ul li {
+        margin-top: 0.5rem;
+    }
+
+    .fTerms div:nth-of-type(2) {
+        color: white;
+        width: auto;
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .fTerms div:nth-of-type(2) a {
+        color: white;
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
+    body {
+        overflow-x: hidden;
     }
 }

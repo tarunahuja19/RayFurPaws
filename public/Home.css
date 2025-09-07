@@ -538,7 +538,10 @@ a {
     margin-top: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+#FName{
+    display: flex;
+    flex-direction: row;
+}
 #firstName {
     height: 3rem;
     width: 13rem;
@@ -549,7 +552,6 @@ a {
     border-radius: 0.5rem;
     margin-top: 6rem;
 }
-
 #firstName:focus {
     outline: none;
     border: 0.2rem solid black;

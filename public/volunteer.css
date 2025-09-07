@@ -1,0 +1,285 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    transition: margin-right 0.3s;
+    overflow-x: hidden;
+    background-color: #FFF8F0;
+}
+
+header {
+    height: 7rem;
+    width: 100%;
+    position: fixed;
+    top: 0rem;
+    background-color: #FFF6F0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 5rem;
+    width: 5rem;
+}
+
+#logo-text a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-left: 1rem; */
+}
+
+#logo-text,
+#menu-donate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#oname {
+    font-size: 3rem;
+    color: #C75B7A;
+    font-family: Verdana, sans-serif;
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#donate {
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-right: 2rem;
+    color: white;
+    background-color: #FF914D;
+    border-radius: 0.4rem;
+    transition: 500ms;
+}
+
+#donate:hover {
+    background-color: #FF7A29;
+}
+
+.menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    background-color: #6B4E3D;
+    color: white;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    transition: 500ms;
+}
+
+.menu-button:hover {
+    background-color: #C75B7A;
+}
+
+.menu {
+    height: 100%;
+    width: 30rem;
+    position: fixed;
+    top: 0;
+    right: -30rem;
+    background-color: #FFF6F0 !important;
+    overflow-y: auto;
+    transition: right 0.3s;
+    padding-top: 60px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.menu ul li {
+    margin: 2.5rem 1rem;
+}
+
+.menu ul li a {
+    color: #7B4F2C;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Verdana, sans-serif;
+}
+
+.menu ul li a:hover {
+    color: #F28B82;
+}
+
+#menu-heading {
+    margin-left: 1rem;
+    font-family: Verdana, sans-serif;
+}
+
+#close-button {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.menu-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 2px;
+    width: 31rem;
+}
+
+.menuItemList div {
+    font-size: 1.5rem;
+    color: #7B4F2C;
+    font-family: Verdana, sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuItemList div:hover {
+    color: #F28B82;
+}
+
+.menuItemList div span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menuItemList.active .submenu {
+    display: block;
+    margin-left: 4rem;
+}
+
+.symbol {
+    display: inline-block;
+    transition: 300ms ease;
+}
+
+.menuItemList.active .symbol {
+    transform: rotate(180deg);
+}
+
+.submenu {
+    display: none;
+}
+
+.volunteer {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.volunteerContainer {
+    width: 100%;
+    max-width: 70rem;
+    min-height: 20rem;
+    background-color: #FFD9C0;
+    border: 0.2rem solid orange;
+    margin-top: 8rem;
+}
+
+#volunteerH {
+    width: 100%;
+    height: 2rem;
+    background-color: orange;
+    margin-top: 0;
+}
+
+#volunteerH h1 {
+    color: white;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.volunteerContainer div h2 {
+    color: orangered;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.volunteerContainer div p {
+    font-size: 1.5rem;
+    color: darkorange;
+    margin-left: 2rem;
+}
+
+.volunteerContainer div label {
+    font-size: 1.5rem;
+    color: darkorange;
+    margin-left: 2rem;
+}
+
+.volunteerContainer div button {
+    height: 3rem;
+    width: 12rem;
+    margin-left: 13.5rem;
+    margin-bottom: 2rem;
+    font-size: large;
+    font-weight: bold;
+    background-color: #f28c28;
+    color: white;
+    transition: 500ms;
+}
+.volunteerContainer div button:hover{
+    background-color: #e67a1d;
+}
+.volunteerContainer div input {
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    height: 2rem;
+    color: darkorange;
+    background-color: #FFD9C0;
+    ;
+    margin-left: 2rem;
+    border-top: 0rem solid;
+    border-left: 0rem solid;
+    border-right: 0rem solid;
+    border-bottom: 0.2rem solid darkorange;
+    width: 50%;
+}
+
+.volunteerContainer div input:focus {
+    outline: none;
+}
+
+@media(max-width:768px) {
+    #logo {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    #oname {
+        font-size: 2rem;
+    }
+
+    .menu-button {
+        margin-right: 1.5rem;
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .menu {
+        width: 20rem;
+    }
+
+    .menu-up {
+        width: 20rem;
+    }
+
+    #donate {
+        display: none;
+    }
+}

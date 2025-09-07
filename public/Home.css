@@ -496,43 +496,50 @@ a {
     font-variation-settings:
         "wdth" 100;
 }
-.subscribeForm{
+
+.subscribeForm {
     display: flex;
     justify-content: center;
 }
-#sContainer{
+
+#sContainer {
     height: 40rem;
     max-width: 70rem;
-    background-color:#eaf7ea;
+    background-color: #eaf7ea;
     margin-top: 10rem;
     border-radius: 2rem;
     display: flex;
     flex-direction: row;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
 }
-#sContainer img{
+
+#sContainer img {
     height: 40rem;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
-.formElements{
+
+.formElements {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#sForm{
+
+#sForm {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#sForm h1{
+
+#sForm h1 {
     color: #4d3a2a;
     font-size: 2.5rem;
     margin-top: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#firstName{
+
+#firstName {
     height: 3rem;
     width: 13rem;
     font-size: 1.5rem;
@@ -542,12 +549,14 @@ a {
     border-radius: 0.5rem;
     margin-top: 6rem;
 }
-#firstName:focus{
+
+#firstName:focus {
     outline: none;
     border: 0.2rem solid black;
     box-shadow: 0 0 5px rgba(76, 175, 80, 0.5)
 }
-#lastName{
+
+#lastName {
     height: 3rem;
     width: 13rem;
     padding-left: 1rem;
@@ -556,12 +565,14 @@ a {
     margin-right: 0.5rem;
     margin-top: 6rem;
 }
-#lastName:focus{
+
+#lastName:focus {
     outline: none;
     border: 0.2rem solid black;
     box-shadow: 0 0 5px rgba(76, 175, 80, 0.5)
 }
-#email{
+
+#email {
     height: 3rem;
     width: 20rem;
     margin-top: 4rem;
@@ -569,12 +580,14 @@ a {
     padding-left: 1rem;
     border-radius: 0.5rem;
 }
-#email:focus{
+
+#email:focus {
     outline: none;
     border: 0.2rem solid black;
     box-shadow: 0 0 5px rgba(76, 175, 80, 0.5)
 }
-#submitB{
+
+#submitB {
     height: 3rem;
     width: 8rem;
     font-size: large;
@@ -584,10 +597,12 @@ a {
     color: white;
     transition: 500ms;
 }
-#submitB:hover{
+
+#submitB:hover {
     background-color: #e67a1d;
 }
-.footer{
+
+.footer {
     width: 100%;
     height: 30rem;
     background-color: #5C4033;
@@ -595,7 +610,8 @@ a {
     display: flex;
     flex-direction: row;
 }
-.fcName{
+
+.fcName {
     width: 30rem;
     height: 30rem;
     display: flex;
@@ -603,20 +619,24 @@ a {
     align-items: center;
     justify-content: space-evenly;
 }
-.qlinkandTerm{
+
+.qlinkandTerm {
     display: flex;
     flex-direction: row;
 }
-#fLogo{
+
+#fLogo {
     height: 8rem;
     width: 8rem;
 }
-#fName{
+
+#fName {
     font-size: 4rem;
     color: white;
     font-family: Verdana, sans-serif;
 }
-.fQuickLinks{
+
+.fQuickLinks {
     color: white;
     width: 20rem;
     display: flex;
@@ -625,17 +645,21 @@ a {
     margin-top: 5rem;
     margin-left: 10rem;
 }
-.fQuickLinks ul{
+
+.fQuickLinks ul {
     list-style: none;
     padding: 0;
 }
-.fQuickLinks ul li a{
+
+.fQuickLinks ul li a {
     color: white;
 }
-.fQuickLinks ul li{
+
+.fQuickLinks ul li {
     margin-top: 1.5rem;
 }
-.fTerms div:nth-of-type(1){
+
+.fTerms div:nth-of-type(1) {
     color: white;
     width: 20rem;
     display: flex;
@@ -644,17 +668,21 @@ a {
     margin-top: 5rem;
     margin-left: 5rem;
 }
-.fTerms ul{
+
+.fTerms ul {
     list-style: none;
     padding: 0;
 }
-.fTerms ul li a{
+
+.fTerms ul li a {
     color: white;
 }
-.fTerms ul li{
+
+.fTerms ul li {
     margin-top: 1.5rem;
 }
-.fTerms div:nth-of-type(2){
+
+.fTerms div:nth-of-type(2) {
     color: white;
     width: 20rem;
     margin-left: 5rem;
@@ -662,16 +690,19 @@ a {
     flex-direction: row;
     justify-content: center;
 }
-.fTerms div:nth-of-type(2) a{
+
+.fTerms div:nth-of-type(2) a {
     color: white;
     font-size: 2rem;
     margin-left: 1rem;
 }
+
 @media(max-width:768px) {
     #logo {
-    height: 4rem;
-    width: 4rem;
-}
+        height: 4rem;
+        width: 4rem;
+    }
+
     #oname {
         font-size: 2rem;
     }
@@ -911,6 +942,7 @@ a {
         font-variation-settings:
             "wdth" 100;
     }
+
     #M3 {
         display: flex;
         flex-direction: row;
@@ -938,6 +970,7 @@ a {
         font-variation-settings:
             "wdth" 100;
     }
+
     #M4 {
         display: flex;
         flex-direction: row;
@@ -966,174 +999,203 @@ a {
         font-variation-settings:
             "wdth" 100;
     }
-    #sContainer{
-    height: 35rem;
-    width: 100%;
-    background-color:#eaf7ea;
-    margin-top: 10rem;
-    border-radius: 2rem;
-    display: flex;
-    flex-direction: row;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
-}
-#sContainer img{
-    display: none;
-}
-.formElements{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#sForm{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#sForm h1{
-    color: #4d3a2a;
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 1rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#firstName{
-    height: 3rem;
-    width: 8rem;
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    border-radius: 0.5rem;
-    margin-top: 4rem;
-}
-#firstName:focus{
-    outline: none;
-    border: 0.2rem solid black;
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5)
-}
-#lastName{
-    height: 3rem;
-    width: 8rem;
-    padding-left: 1rem;
-    font-size: 1.5rem;
-    border-radius: 0.5rem;
-}
-#lastName:focus{
-    outline: none;
-    border: 0.2rem solid black;
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5)
-}
-#email{
-    height: 3rem;
-    width: 18rem;
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    border-radius: 0.5rem;
-}
-#email:focus{
-    outline: none;
-    border: 0.2rem solid black;
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5)
-}
-#submitB{
-    height: 3rem;
-    width: 8rem;
-    font-size: large;
-    margin-top: 4rem;
-    font-weight: bold;
-    background-color: #f28c28;
-    color: white;
-    transition: 500ms;
-}
-#submitB:hover{
-    background-color: #e67a1d;
-}
-.footer{
-    width: 100%;
-    height: 20rem;
-    background-color: #5C4033;
-    margin-top: 20rem;
-    display: flex;
-    flex-direction: column;
-}
-.fcName{
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 0.5rem;
-}
-.qlinkandTerm{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-#fLogo{
-    height: 4rem;
-    width: 4rem;
-}
-#fName{
-    margin-left: 0.5rem;
-    font-size: 2rem;
-    color: white;
-    font-family: Verdana, sans-serif;
-}
-.fQuickLinks{
-    color: white;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 0.5rem;
-    margin-left: 1rem;
-    font-size: 0.5rem;
-}
-.fQuickLinks ul{
-    list-style: none;
-    padding: 0;
-}
-.fQuickLinks ul li a{
-    color: white;
-}
-.fQuickLinks ul li{
-    margin-top: 0.5rem;
-}
-.fTerms div:nth-of-type(1){
-    color: white;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 0.5rem;
-    margin-top: 0.5rem;
-    margin-left: 5rem;
-}
-.fTerms ul{
-    list-style: none;
-    padding: 0;
-}
-.fTerms ul li a{
-    color: white;
-}
-.fTerms ul li{
-    margin-top: 0.5rem;
-}
-.fTerms div:nth-of-type(2){
-    color: white;
-    width: auto;
-    margin-left: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.fTerms div:nth-of-type(2) a{
-    color: white;
-    font-size: 1rem;
-    margin-left: 1rem;
-}
+
+    #sContainer {
+        height: 35rem;
+        width: 100%;
+        background-color: #eaf7ea;
+        margin-top: 10rem;
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: row;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
+    }
+
+    #sContainer img {
+        display: none;
+    }
+
+    .formElements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sForm {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sForm h1 {
+        color: #4d3a2a;
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 1rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #firstName {
+        height: 3rem;
+        width: 8rem;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 0.5rem;
+        margin-top: 4rem;
+    }
+
+    #firstName:focus {
+        outline: none;
+        border: 0.2rem solid black;
+        box-shadow: 0 0 5px rgba(76, 175, 80, 0.5)
+    }
+
+    #lastName {
+        height: 3rem;
+        width: 8rem;
+        padding-left: 1rem;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+    }
+
+    #lastName:focus {
+        outline: none;
+        border: 0.2rem solid black;
+        box-shadow: 0 0 5px rgba(76, 175, 80, 0.5)
+    }
+
+    #email {
+        height: 3rem;
+        width: 18rem;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    #email:focus {
+        outline: none;
+        border: 0.2rem solid black;
+        box-shadow: 0 0 5px rgba(76, 175, 80, 0.5)
+    }
+
+    #submitB {
+        height: 3rem;
+        width: 8rem;
+        font-size: large;
+        margin-top: 4rem;
+        font-weight: bold;
+        background-color: #f28c28;
+        color: white;
+        transition: 500ms;
+    }
+
+    #submitB:hover {
+        background-color: #e67a1d;
+    }
+
+    .footer {
+        width: 100%;
+        height: 20rem;
+        background-color: #5C4033;
+        margin-top: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fcName {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0.5rem;
+    }
+
+    .qlinkandTerm {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #fLogo {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    #fName {
+        margin-left: 0.5rem;
+        font-size: 2rem;
+        color: white;
+        font-family: Verdana, sans-serif;
+    }
+
+    .fQuickLinks {
+        color: white;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+        font-size: 0.5rem;
+    }
+
+    .fQuickLinks ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .fQuickLinks ul li a {
+        color: white;
+    }
+
+    .fQuickLinks ul li {
+        margin-top: 0.5rem;
+    }
+
+    .fTerms div:nth-of-type(1) {
+        color: white;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 0.5rem;
+        margin-top: 0.5rem;
+        margin-left: 5rem;
+    }
+
+    .fTerms ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .fTerms ul li a {
+        color: white;
+    }
+
+    .fTerms ul li {
+        margin-top: 0.5rem;
+    }
+
+    .fTerms div:nth-of-type(2) {
+        color: white;
+        width: auto;
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .fTerms div:nth-of-type(2) a {
+        color: white;
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
     body {
         overflow-x: hidden;
     }

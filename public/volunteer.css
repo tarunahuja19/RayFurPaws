@@ -282,12 +282,14 @@ a {
 #fLogo {
     height: 8rem;
     width: 8rem;
+    margin-left: 10rem;
 }
 
 #fName {
     font-size: 4rem;
     color: white;
     font-family: Verdana, sans-serif;
+    margin-left: 10rem;
 }
 
 .fQuickLinks {
@@ -350,7 +352,6 @@ a {
     font-size: 2rem;
     margin-left: 1rem;
 }
-
 @media(max-width:768px) {
     #logo {
         height: 4rem;
@@ -379,8 +380,21 @@ a {
     #donate {
         display: none;
     }
-
-
+    .volunteerContainer div input{
+        width: 90%;
+        font-size: 1rem;
+    }
+    .volunteerContainer div button {
+    height: 3rem;
+    width: 8rem;
+    margin-left: 40%;
+    margin-bottom: 2rem;
+    font-size: large;
+    font-weight: bold;
+    background-color: #f28c28;
+    color: white;
+    transition: 500ms;
+}
     .footer {
         width: 100%;
         height: 20rem;
@@ -408,6 +422,7 @@ a {
     #fLogo {
         height: 4rem;
         width: 4rem;
+        margin-left: 0;
     }
 
     #fName {
@@ -479,7 +494,6 @@ a {
         font-size: 1rem;
         margin-left: 1rem;
     }
-
     body {
         overflow-x: hidden;
     }

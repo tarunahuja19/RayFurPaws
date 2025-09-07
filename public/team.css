@@ -267,12 +267,14 @@ h4 {
 #fLogo {
     height: 8rem;
     width: 8rem;
+    margin-left: 10rem;
 }
 
 #fName {
     font-size: 4rem;
     color: white;
     font-family: Verdana, sans-serif;
+    margin-left: 10rem
 }
 
 .fQuickLinks {
@@ -418,6 +420,7 @@ h4 {
     #fLogo {
         height: 4rem;
         width: 4rem;
+        margin-left: 0;
     }
 
     #fName {

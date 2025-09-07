@@ -1041,7 +1041,10 @@ a {
         margin-top: 1rem;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
-
+    #FName{
+        display: flex;
+        flex-direction: row;
+    }
     #firstName {
         height: 3rem;
         width: 8rem;
@@ -1060,6 +1063,7 @@ a {
     }
 
     #lastName {
+        margin-top: 4rem;
         height: 3rem;
         width: 8rem;
         padding-left: 1rem;
